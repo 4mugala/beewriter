@@ -32,9 +32,9 @@ This is where the content of your body goes in. ``[multiline: allowed, blank: al
 ``=\n``: content-tag
 
 ## Rules
-``multiline``: mean a property (field) can contain multiple lines
+``multiline``: mean a property (field, element) can contain multiple lines
 
-``blank``: means a property can be left empty (as an example below)
+``blank``: means a property can be left empty (as an example below). The ``\t`` and ``\n`` are required even if property that uses it is blank: the parser needs it!
 
 An example with a multiline title and content and blank title and priority
 ```
