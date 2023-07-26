@@ -23,7 +23,7 @@ This is only used in a give scope and can be whatever you want (or last modified
 This is where the content of your body goes in. ``[multiline: allowed, blank: allowed]``
 
 ## Tags
-``?`` + ``\t``: title-tag
+``?`` + ``\t`` = ``?\t``: title-tag
 
 ``@`` + ``\t``: author-tag
 
