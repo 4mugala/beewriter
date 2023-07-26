@@ -10,7 +10,7 @@ Is a simple document formant
 Content
 ```
 ## Title (description)
-The title (or short description) of the document ``[multiline allowed, blank allowed]``
+The title (or short description) of the document [multiline allowed, blank allowed]
 ## Author
 The author of the document ``[multiline disallowed, blank allowed]``
 ## Priority
