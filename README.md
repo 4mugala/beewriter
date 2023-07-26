@@ -2,7 +2,7 @@
 Is a simple document formant
 
 # Structure
-```java
+```html
 ? Title (description)
 @ Author
 # Priority
