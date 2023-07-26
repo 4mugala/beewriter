@@ -1,4 +1,4 @@
-# beewriter
+# beeNote
 Is a simple document formant
 
 # Structure
