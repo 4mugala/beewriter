@@ -5,6 +5,7 @@ from beesups import inc_rename_dir, add_os_sep
 
 
 BEE_EXCEPTION_STR = "The format of the input text is not Bee (avoid new lines in author and priority properties)."
+FILE_EXITS_EXCEPTION = "File already exists"
 
 
 class FormatNotBeeError(Exception):
@@ -167,6 +168,11 @@ class BeeWriter:
 
         if not os.path.exists(self.__root_path):
             os.makedirs(self.__root_path)
+
+        if os.path.exists(path):
+            other_note = BeeReader(src=path)
+            if other_note.title() != self.__title:
+                raise Exception(FILE_EXITS_EXCEPTION)
 
         with open(path, "w") as file:
             file.write(note)
