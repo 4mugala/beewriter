@@ -46,3 +46,5 @@ An example with a multiline title and content and blank title and priority
 Some people say life good
 On ther hand people say life is hard
 ```
+## Author
+Musangu J. Mugala (4devmog@gmaim.com)
